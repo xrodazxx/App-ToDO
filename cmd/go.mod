@@ -2,7 +2,7 @@ module APP-TODO
 
 go 1.23.2
 
-require github.com/xrodazxx/App-ToDO v0.0.0-20241021141238-76f77145417e
+require github.com/xrodazxx/App-ToDO v0.0.0-20241021205026-5ae3b6a0d72d
 
 require (
 	github.com/bytedance/sonic v1.12.3 // indirect

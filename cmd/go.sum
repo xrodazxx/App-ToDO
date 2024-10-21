@@ -62,8 +62,8 @@ github.com/twitchyliquid64/golang-asm v0.15.1 h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS
 github.com/twitchyliquid64/golang-asm v0.15.1/go.mod h1:a1lVb/DtPvCB8fslRZhAngC2+aY1QWCk3Cedj/Gdt08=
 github.com/ugorji/go/codec v1.2.12 h1:9LC83zGrHhuUA9l16C9AHXAqEV/2wBQ4nkvumAE65EE=
 github.com/ugorji/go/codec v1.2.12/go.mod h1:UNopzCgEMSXjBc6AOMqYvWC1ktqTAfzJZUZgYf6w6lg=
-github.com/xrodazxx/App-ToDO v0.0.0-20241021141238-76f77145417e h1:1fQG7nqWvRgO8vlhLt4diJ7ZlwkadJWjM9PMC0yWKcM=
-github.com/xrodazxx/App-ToDO v0.0.0-20241021141238-76f77145417e/go.mod h1:OponbNXsjOq3dF82RhTuqFasX327l/OXlw4RERc/4LA=
+github.com/xrodazxx/App-ToDO v0.0.0-20241021205026-5ae3b6a0d72d h1:rckDYF+N+D+B0jyoO4+75d/gdN0LwZYDM2ueBT2V1dU=
+github.com/xrodazxx/App-ToDO v0.0.0-20241021205026-5ae3b6a0d72d/go.mod h1:OponbNXsjOq3dF82RhTuqFasX327l/OXlw4RERc/4LA=
 golang.org/x/arch v0.11.0 h1:KXV8WWKCXm6tRpLirl2szsO5j/oOODwZf4hATmGVNs4=
 golang.org/x/arch v0.11.0/go.mod h1:FEVrYAQjsQXMVJ1nsMoVVXPZg6p2JE2mx8psSWTDQys=
 golang.org/x/crypto v0.28.0 h1:GBDwsMXVQi34v5CCYUm2jkJvu4cbtru2U4TN2PSyQnw=
