@@ -6,10 +6,15 @@ import (
 	apptodo "github.com/xrodazxx/App-ToDO"
 
 	"github.com/xrodazxx/App-ToDO/pkg/handler"
+	"github.com/xrodazxx/App-ToDO/pkg/repository"
+	"github.com/xrodazxx/App-ToDO/pkg/service"
 )
 
 func main() {
-	handlers := new(handler.Handler)
+	repos := repository.NewRepository()
+	services := service.NewService(repos)
+	handlers := handler.NewHandler(services)
+
 	srv := new(apptodo.Server)
 	if err := srv.Run("8000", handlers.InitRoutes()); err != nil {
 		log.Fatal("error occured while running http server:%s", err.Error())
