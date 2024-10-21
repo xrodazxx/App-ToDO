@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/xrodazxx/TODO/pkg/handler"
+	"github.com/xrodazxx/App-ToDO/pkg/handler"
 )
 
 func main() {
