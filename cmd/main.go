@@ -16,12 +16,12 @@ func main() {
 		log.Fatalf("error initializing configs:%s", err.Error())
 	}
 	db, err := repository.NewPostgresDB(repository.Config{
-		Host:     "localhost",
-		Port:     "5433",
-		Username: "postgres",
-		Password: "qwerty",
-		DBName:   "postgres",
-		SSLMode:  "disable",
+		Host:     viper.GetString("db_host"),
+		Port:     viper.GetString("db_port"),
+		Username: viper.GetString("db_username"),
+		Password: viper.GetString("db_password"),
+		DBName:   viper.GetString("db_dbname"),
+		SSLMode:  viper.GetString("db_sslmode"),
 	})
 	repos := repository.NewRepository()
 	services := service.NewService(repos)
