@@ -15,6 +15,14 @@ func main() {
 	if err := initConfig(); err != nil {
 		log.Fatalf("error initializing configs:%s", err.Error())
 	}
+	db, err := repository.NewPostgresDB(repository.Config{
+		Host:     "localhost",
+		Port:     "5433",
+		Username: "postgres",
+		Password: "qwerty",
+		DBName:   "postgres",
+		SSLMode:  "disable",
+	})
 	repos := repository.NewRepository()
 	services := service.NewService(repos)
 	handlers := handler.NewHandler(services)
